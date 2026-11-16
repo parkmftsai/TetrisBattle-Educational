@@ -1,0 +1,13 @@
+include Readme.md
+include 操作說明_中文.md
+include requirements.txt
+include controls.example.json
+recursive-include TetrisBattle/assets *.png *.jpg *.wav *.mp3 *.json
+recursive-include tools *.py
+recursive-include tests *.py
+
+include 修改紀錄及測試報告.md
+include 啟動遊戲_Windows.bat
+include 啟動雙人_Windows.bat
+include 啟動遊戲_Linux_macOS.sh
+include 啟動雙人_Linux_macOS.sh

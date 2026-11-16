@@ -1,0 +1,20 @@
+name: Python tests
+on:
+  push:
+  pull_request:
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      # Run logic tests with the project-provided Pygame stub (not a GUI smoke test).
+      - name: Install logic-test dependencies
+        run: python -m pip install pytest numpy
+      - name: Run tests
+        env:
+          SDL_VIDEODRIVER: dummy
+          SDL_AUDIODRIVER: dummy
+        run: python -m pytest -q

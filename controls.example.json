@@ -1,0 +1,85 @@
+{
+  "single": {
+    "p1": {
+      "left": [
+        "left",
+        "a"
+      ],
+      "right": [
+        "right",
+        "d"
+      ],
+      "down": [
+        "down",
+        "s"
+      ],
+      "rotate_right": [
+        "up",
+        "w",
+        "x"
+      ],
+      "rotate_left": [
+        "z",
+        "q"
+      ],
+      "drop": [
+        "space"
+      ],
+      "hold": [
+        "c",
+        "left shift"
+      ]
+    }
+  },
+  "double": {
+    "p1": {
+      "left": [
+        "left"
+      ],
+      "right": [
+        "right"
+      ],
+      "down": [
+        "down"
+      ],
+      "rotate_right": [
+        "up",
+        "x"
+      ],
+      "rotate_left": [
+        "z"
+      ],
+      "drop": [
+        "space"
+      ],
+      "hold": [
+        "c",
+        "left shift"
+      ]
+    },
+    "p2": {
+      "left": [
+        "h"
+      ],
+      "right": [
+        "k"
+      ],
+      "down": [
+        "j"
+      ],
+      "rotate_right": [
+        "u",
+        "i"
+      ],
+      "rotate_left": [
+        "q"
+      ],
+      "drop": [
+        "w"
+      ],
+      "hold": [
+        "e"
+      ]
+    }
+  }
+}

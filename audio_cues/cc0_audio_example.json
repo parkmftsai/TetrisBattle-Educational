@@ -1,0 +1,18 @@
+{
+  "source_description": "Example filenames from an independently obtained and licensed CC0 audio library; edit for your own local files.",
+  "license_or_permission": "Kenney CC0 1.0 (source reference: https://kenney.nl/assets/digital-audio)",
+  "events": {
+    "rotate": {
+      "file": "phaserUp4.ogg"
+    },
+    "hold": {
+      "file": "phaseJump3.ogg"
+    },
+    "bomb_ready": {
+      "file": "powerUp1.ogg"
+    },
+    "bomb_explode": {
+      "file": "explosionCrunch_000.ogg"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "source_description": "Illustrative cue sheet only. Timestamps are examples, not verified against a real video.",
+  "license_or_permission": "Enter the correct license or creator permission for YOUR OWN video.",
+  "events": {
+    "move": {
+      "start": 4.2,
+      "end": 4.29
+    },
+    "rotate": {
+      "start": 5.0,
+      "end": 5.16
+    },
+    "hard_drop": {
+      "start": 8.1,
+      "end": 8.43
+    },
+    "line_clear": {
+      "start": 12.05,
+      "end": 12.53
+    },
+    "combo": {
+      "start": 15.1,
+      "end": 15.55
+    },
+    "tetris": {
+      "start": 18.3,
+      "end": 19.05
+    },
+    "attack": {
+      "start": 22.7,
+      "end": 23.1
+    },
+    "bomb_explode": {
+      "start": 26.25,
+      "end": 27.04
+    }
+  }
+}
